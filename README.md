@@ -6,9 +6,15 @@ Baixe o ChromeDrive no site https://chromedriver.chromium.org/downloads na vers√
  
 ### Instalando Gemas
 
-Ao iniciar o projeto no VSCode, abrir o prompt de comando e usar o comando:
- 
-gem install blunder capybara cucumber rspec selenium-webdriver site_prism xpath
+Abrir o prompt de comando e usar o comando:
+
+ruby -v
+
+gem install bundler
+
+cucumber --init
+
+gem install capybara cucumber rspec selenium-webdriver site_prism xpath
  
 ### Executando o Projeto
 
