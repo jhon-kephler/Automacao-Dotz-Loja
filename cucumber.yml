@@ -1,0 +1,6 @@
+---
+
+default: -p pretty -p dotz -p html
+pretty: --format pretty
+dotz: AMBIENTE=dotz
+html: --format html --out=reports/relatorio.html
