@@ -12,7 +12,7 @@ cd **local do arquivo
 
 gem install bundler cucumber
 
-#### Instalando Gemas
+### Instalando Gemas
 
 Dentro do VSCode abra o terminal e insira o comando abaixo:
 
