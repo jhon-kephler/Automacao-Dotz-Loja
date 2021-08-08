@@ -4,21 +4,23 @@ Baixe no site https://rubyinstaller.org/downloads/ e instale a versão Ruby+Devk
  
 Baixe o ChromeDrive no site https://chromedriver.chromium.org/downloads na versão ChromeDriver 92.0.4515.107, (para Windows) após o download extraia o arquivo na pasta C:/Windows.
  
-### Instalando Gemas
+### Configurando projeto
 
-Abrir o prompt de comando e usar o comando:
+Abra o prompt de comando e usar os comandos:
 
-ruby -v
+cd **local do arquivo
 
-gem install bundler
+gem install bundler cucumber
 
-cucumber --init
+#### Instalando Gemas
 
-gem install capybara cucumber rspec selenium-webdriver site_prism xpath
+Dentro do VSCode abra o terminal e insira o comando abaixo:
+
+gem install capybara rspec selenium-webdriver site_prism xpath
  
 ### Executando o Projeto
 
-Após a instalação das gemas utilise o comando bundle exec cucumber.
+Após a instalação das gemas utilise o comando cucumber no terminal do VSCode.
 
 ### Verificando o Relatorio
 
